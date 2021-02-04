@@ -18,6 +18,11 @@ h1 {
 
 h2, h3, h4, h5, h6 {
 	font-family: 'Asar', serif;
+	margin-bottom: 3rem;
+}
+
+p {
+	margin-bottom: 1.5em;
 }
 
 .section {
