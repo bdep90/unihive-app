@@ -18,6 +18,9 @@ h1 {
 
 h2, h3, h4, h5, h6 {
 	font-family: 'Asar', serif;
+}
+
+h2, h3 {
 	margin-bottom: 3rem;
 }
 
@@ -27,7 +30,7 @@ p {
 
 .section {
 	padding-top: 2rem;
-	padding-bottom: 2rem;
+	padding-bottom: 4rem;
 }
 
 /* Hero */
@@ -42,7 +45,13 @@ p {
 
 
 /* About */
+.about .row {
+	width: 70%;
+}
 
+.about img {
+	width: 100%;
+}
 
 /* Footer */
 
