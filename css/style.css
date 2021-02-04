@@ -36,10 +36,27 @@ p {
 	margin-bottom: 1.5em;
 }
 
+a {
+	color: #156AA5;
+}
+
+a:hover,
+a:active,
+a:focus {
+	color: #092F4A;
+}
+
 .row {
 	margin-bottom: 0;
 }
 
+.icon-block {
+	margin-top: 1rem;
+}
+
+.material-icons {
+	font-size: 42px;
+}
 
 
 /* Hero */
@@ -58,6 +75,8 @@ p {
 	padding-top: 9rem;
 	padding-bottom: 5rem;
 }
+
+
 
 /* Why UniHive */
 .why-unihive {
@@ -89,8 +108,15 @@ p {
 }
 
 /* Footer */
+footer a {
+	color: #E1F6F9;
+}
 
-
+footer a:hover,
+footer a:active,
+footer a:focus {
+	color: #F4DD02;
+}
 
 /* Queries */
 @media only screen and (min-width: 993px) {
