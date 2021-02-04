@@ -27,6 +27,11 @@ h2, h3 {
 	margin: 0 0 3rem;
 }
 
+h6 {
+	font-size: 1.4rem;
+	margin: 0 0 1rem;
+}
+
 nav {
 	color: #E1F6F9;
 	background-color: #092F4A;
@@ -107,7 +112,27 @@ a:focus {
 	margin-bottom: 2rem;
 }
 
+.about i {
+	padding-right: .75rem;
+}
+
 /* Footer */
+footer.page-footer {
+	background-color: #092F4A;
+	padding-top: 3rem;
+	padding-bottom: 1rem;
+}
+
+footer,
+footer.page-footer,
+.page-footer .footer-copyright {
+	color: #E1F6F9 !important;
+}
+
+.page-footer .footer-copyright {
+	margin-top: 3rem;
+}
+
 footer a {
 	color: #E1F6F9;
 }
@@ -116,6 +141,25 @@ footer a:hover,
 footer a:active,
 footer a:focus {
 	color: #F4DD02;
+}
+
+footer .left a {
+	display: block;
+}
+
+.tagline {
+	font-family: 'Asar', serif;
+	color: #F4DD02;
+	margin-bottom: 3rem;
+	font-size: 1.4rem;
+}
+
+footer i {
+	padding-right: .5rem;
+}
+
+h6.newsletter {
+	margin-top: 3rem;
 }
 
 /* Queries */
