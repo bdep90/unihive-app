@@ -24,6 +24,10 @@ h2, h3 {
 	margin-bottom: 3rem;
 }
 
+img {
+	width: 100%;
+}
+
 p {
 	margin-bottom: 1.5em;
 }
@@ -42,15 +46,19 @@ p {
 
 
 /* Why UniHive */
+.why-unihive .left-col {
+	padding: 0;
+}
 
+.why-unihive .right-col {
+	padding-left: 3rem;
+/*	padding-top: 2rem;
+	padding-bottom: 5rem;*/
+}
 
 /* About */
 .about .row {
 	width: 70%;
-}
-
-.about img {
-	width: 100%;
 }
 
 /* Footer */
