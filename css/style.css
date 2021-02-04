@@ -8,8 +8,8 @@
 
 body {
 	font-family: 'Yantramanav', sans-serif;
-	font-size: 18px;
-	line-height: 24px;
+	font-size: 19px;
+	line-height: 25px;
 	background-color: #E8EEF2;
 	color: #092F4A;
 }
@@ -24,7 +24,7 @@ h2, h3, h4, h5, h6 {
 }
 
 h2, h3 {
-	margin-bottom: 3rem;
+	margin: 0 0 3rem;
 }
 
 nav {
@@ -35,6 +35,12 @@ nav {
 p {
 	margin-bottom: 1.5em;
 }
+
+.row {
+	margin-bottom: 0;
+}
+
+
 
 /* Hero */
 .hero {
@@ -48,12 +54,16 @@ p {
 }
 
 /* Benefits */
-
+.benefits {
+	padding-top: 9rem;
+	padding-bottom: 5rem;
+}
 
 /* Why UniHive */
 .why-unihive {
 	background-color: #156AA5;
 	color: #E1F6F9;
+	padding: 0;
 }
 
 .why-unihive .left-col {
@@ -61,12 +71,21 @@ p {
 }
 
 .why-unihive .right-col {
-	padding-left: 3rem;
+
 }
 
 /* About */
+.about {
+	padding-top: 9rem;
+	padding-bottom: 9rem;
+}
+
 .about .row {
 	width: 70%;
+}
+
+.about img {
+	margin-bottom: 2rem;
 }
 
 /* Footer */
