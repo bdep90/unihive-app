@@ -14,20 +14,38 @@ body {
 
 h1 {
 	font-family: 'Abril Fatface', cursive;
-	font-size: 46px;
-	line-height: 52px;
 }
 
 h2, h3, h4, h5, h6 {
 	font-family: 'Asar', serif;
-	font-size: 30px;
-	line-height: 36px;
 }
 
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-	font-size: inherit;
+.section {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 }
 
+/* Hero */
+.hero {
+	height: 100vh;
+}
+
+/* Benefits */
+
+
+/* Why UniHive */
+
+
+/* About */
+
+
+/* Footer */
+
+
+
+/* Queries */
+@media only screen and (min-width: 993px) {
+	.container {
+		width: 80%;
+	}
+}
