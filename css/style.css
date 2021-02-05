@@ -101,7 +101,9 @@ a:focus {
 /* Nav */
 nav ul a {
 	padding: 0 25px;
-	font-size: 16px;
+	font-size: 17px;
+	color: #E1F6F9;
+	text-transform: uppercase;
 }
 
 nav ul a:hover,
@@ -110,16 +112,16 @@ nav ul a:focus {
 	background-color: #092F4A;
 }
 
-nav .primary {
-
+nav a.primary {
+	color: #092F4A;
+	background-color: #E1F6F9;
 }
 
 nav a.primary:hover,
 nav a.primary:active,
 nav a.primary:focus {
-	color: #092F4A;
-	background-color: #E1F6F9;
-	/*border: 2px inset #F4DD02;*/
+	color: #E1F6F9;
+	background-color: #092F4A;
 }
 
 /* Hero */
@@ -211,5 +213,13 @@ h6.newsletter {
 @media only screen and (min-width: 993px) {
 	.container {
 		width: 80%;
+	}
+}
+
+@media only screen and (min-width: 601px) {
+
+	nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+		height: 60px;
+		line-height: 60px;
 	}
 }
