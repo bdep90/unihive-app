@@ -43,11 +43,37 @@ p {
 
 a {
 	color: #156AA5;
+	transition: all 0.5s ease !important;
 }
 
 a:hover,
 a:active,
 a:focus {
+	color: #F4DD02;
+}
+
+.benefits a:hover,
+.benefits a:active,
+.benefits a:focus,
+.about a:hover,
+.about a:active,
+.about a:focus {
+	color: #092F4A;
+}
+
+.btn-large {
+	background: #ffffff00;
+	color: #E1F6F9;
+	font-size: 18px;
+	border: 2px solid #F4DD02;
+	border-radius: 0;
+	transition: all 0.5s ease !important;
+}
+
+.btn-large:hover, 
+.btn-large:active, 
+.btn-large:focus {
+    background: #E1F6F9;
 	color: #092F4A;
 }
 
@@ -63,6 +89,38 @@ a:focus {
 	font-size: 42px;
 }
 
+.tagline {
+	font-family: 'Asar', serif;
+	color: #F4DD02;
+	margin-bottom: 3rem;
+	font-size: 1.4rem;
+}
+
+
+
+/* Nav */
+nav ul a {
+	padding: 0 25px;
+	font-size: 16px;
+}
+
+nav ul a:hover,
+nav ul a:active,
+nav ul a:focus {
+	background-color: #092F4A;
+}
+
+nav .primary {
+
+}
+
+nav a.primary:hover,
+nav a.primary:active,
+nav a.primary:focus {
+	color: #092F4A;
+	background-color: #E1F6F9;
+	/*border: 2px inset #F4DD02;*/
+}
 
 /* Hero */
 .hero {
@@ -80,8 +138,6 @@ a:focus {
 	padding-top: 9rem;
 	padding-bottom: 5rem;
 }
-
-
 
 /* Why UniHive */
 .why-unihive {
@@ -137,21 +193,8 @@ footer a {
 	color: #E1F6F9;
 }
 
-footer a:hover,
-footer a:active,
-footer a:focus {
-	color: #F4DD02;
-}
-
 footer .left a {
 	display: block;
-}
-
-.tagline {
-	font-family: 'Asar', serif;
-	color: #F4DD02;
-	margin-bottom: 3rem;
-	font-size: 1.4rem;
 }
 
 footer i {
@@ -161,6 +204,8 @@ footer i {
 h6.newsletter {
 	margin-top: 3rem;
 }
+
+
 
 /* Queries */
 @media only screen and (min-width: 993px) {
