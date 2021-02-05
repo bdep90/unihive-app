@@ -219,7 +219,7 @@ h6.newsletter {
 @media only screen and (min-width: 601px) {
 
 	nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
-		height: 60px;
-		line-height: 60px;
+		height: 54px;
+		line-height: 54px;
 	}
 }
