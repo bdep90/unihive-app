@@ -14,24 +14,43 @@ body {
 	color: #092F4A;
 }
 
-h1 {
+h1, .h1 {
 	font-family: 'Abril Fatface', cursive;
 	color: #E1F6F9;
 	font-size: 47px;
 	line-height: 69px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+h2, .h2 {
+	font-size: 43px;
+	line-height: 50px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+h3, .h3 {
+	font-size: 29px;
+	line-height: 50px;
+	margin-top: 25px;
+	margin-bottom: 0px;
+}
+
+h4, .h4 {
+	font-size: 19px;
+	line-height: 25px;
+	margin-top: 25px;
+}
+
+h5, .h5 {
+	font-size: 19px;
+	line-height: 25px;
+	margin-top: 25px;
 }
 
 h2, h3, h4, h5, h6 {
 	font-family: 'Asar', serif;
-}
-
-h2, h3 {
-	margin: 0 0 3rem;
-}
-
-h6 {
-	font-size: 1.4rem;
-	margin: 0 0 1rem;
 }
 
 nav {
@@ -101,6 +120,10 @@ a:focus {
 
 
 /* Nav */
+nav .brand-logo, nav .brand-logo img {
+	max-height: 50px;
+}
+
 nav ul a {
 	padding: 0 25px;
 	font-size: 17px;
@@ -136,7 +159,7 @@ nav a.primary:focus {
 	background-size: cover;
 }
 
-.hero h5 {
+.hero h2 {
 	color: #E1F6F9;
 	font-size: 29px;
 	line-height: 46px;
@@ -260,26 +283,34 @@ h6.newsletter {
 
 @media only screen and (max-width: 600px) {
 
-	h1, h2 {
-		font-size: 30px;	
-		line-height: 45px;
+	h1, .h1 { 
+		font-size: 33px;
+		line-height: 50px;
+		margin-top: 25px;
+		margin-bottom: 25px;
 	}
 
-	h2, h3 {
-		margin: 0 0 2rem;
+	h2, .h2 {
+		font-size: 27px;
+		line-height: 50px;
+		margin-top: 25px;
+		margin-bottom: 25px;
 	}
 
-	h4 {
-		font-size: 24px;
-		line-height: 32px;
+	h3, .h3,
+	h4, .h4 {
+		font-size: 23px;
+		line-height: 25px;
+		margin-top: 25px;
+		margin-bottom: 0px;
+	}
+	
+	nav .brand-logo, nav .brand-logo img {
+		max-height: 32px;
+		vertical-align: middle;
 	}
 
-	h3, h4, h5, .hero h5 {
-		font-size: 22px;
-		line-height: 30px;
-	}
-
-	.hero h5 {
+	.hero h2 {
 		width: 100%;
 	}
 
