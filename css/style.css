@@ -243,7 +243,10 @@ h6.newsletter {
 
 /* medium screens */
 @media only screen and (max-width: 992px) {
-
+	
+	.about .row {
+		width: 100%;
+	}
 }
 
 /* small screens */
@@ -289,6 +292,10 @@ h6.newsletter {
     	font-size: 50px;
 	}
 
+	.about {
+		padding-top: 5rem;
+		padding-bottom: 5rem;
+	}
 }
 
 @media only screen and (max-width: 480px) {
