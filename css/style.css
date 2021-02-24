@@ -260,17 +260,33 @@ h6.newsletter {
 	h1, h2 {
 		font-size: 30px;	
 		line-height: 45px;
-
 	}
 
-	h2, h3, h4, h5,
-	.hero h5 {
-		font-size: 20px;
-		line-height: 26px;
+	h2, h3 {
+		margin: 0 0 2rem;
+	}
+
+	h4 {
+		font-size: 24px;
+		line-height: 32px;
+	}
+
+	h3, h4, h5, .hero h5 {
+		font-size: 22px;
+		line-height: 30px;
 	}
 
 	.hero h5 {
 		width: 100%;
+	}
+
+	.benefits {
+		padding-top: 5rem;
+		padding-bottom: 0;
+	}
+
+	.benefits .material-icons {
+    	font-size: 50px;
 	}
 
 }
