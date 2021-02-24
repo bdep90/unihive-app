@@ -121,7 +121,7 @@ a:focus {
 
 /* Nav */
 nav .brand-logo, nav .brand-logo img {
-	max-height: 50px;
+	max-height: 28px;
 }
 
 nav ul a {
@@ -224,6 +224,10 @@ footer.page-footer,
 	color: #E1F6F9 !important;
 }
 
+.footer-logo {
+	max-width: 298px;
+}
+
 .page-footer .footer-copyright {
 	margin-top: 3rem;
 }
@@ -238,10 +242,6 @@ footer .left a {
 
 footer i {
 	padding-right: .5rem;
-}
-
-h6.newsletter {
-	margin-top: 3rem;
 }
 
 
@@ -269,6 +269,10 @@ h6.newsletter {
 	
 	.about .row {
 		width: 100%;
+	}
+
+	.footer-logo {
+   		max-width: 278px;
 	}
 }
 
@@ -306,7 +310,6 @@ h6.newsletter {
 	}
 	
 	nav .brand-logo, nav .brand-logo img {
-		max-height: 32px;
 		vertical-align: middle;
 	}
 
