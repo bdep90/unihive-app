@@ -399,6 +399,10 @@ footer i {
 		padding-bottom: 0;
 	}
 
+	.benefits h2 {
+		line-height: 1.2;
+	}
+
 	.benefits .material-icons {
 		font-size: 50px;
 	}
