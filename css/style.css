@@ -16,7 +16,6 @@ body {
 
 h1, .h1 {
 	font-family: 'Abril Fatface', cursive;
-	color: #E1F6F9;
 	font-size: 47px;
 	line-height: 69px;
 	margin-top: 25px;
@@ -175,6 +174,10 @@ nav a.primary:focus {
 	background-size: cover;
 }
 
+.hero h1 {
+	color: #E1F6F9;
+}
+
 .hero h2 {
 	color: #E1F6F9;
 	font-size: 29px;
@@ -295,6 +298,11 @@ footer i {
 	color: #0c2f4a !important;
 }
 
+/* ------- TERMS ---------- */
+.terms-content {
+	padding-top: 5rem;
+	padding-bottom: 3rem;
+}
 
 
 
@@ -398,6 +406,10 @@ footer i {
 	.about {
 		padding-top: 5rem;
 		padding-bottom: 5rem;
+	}
+
+	.terms-content {
+		padding-top: 3rem;
 	}
 }
 
