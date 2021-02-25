@@ -261,36 +261,29 @@ footer i {
 	margin-bottom: 35px !important;
 }
 
-#mc_embed_signup input {
+#mc_embed_signup input,
+#mc_embed_signup .button {
+	display: inline-block !important;
+	margin: 0 !important;
+	height: 48px !important;
+	min-height: 48px !important;
+	width: 50% !important;
+	min-width: 50% !important;
+	line-height: 1 !important;
+	border-radius: 0 !important;
 	border: 1px solid #f4dd01 !important;
-}
-
-#mc_embed_signup input[type=email]:not(.browser-default) {
-	color: #e1f5f8 !important;
-
-}
-
-#mc_embed_signup input:-internal-autofill-selected {
-	background: #e1f5f8 !important;
-	color: #092F4A !important;
-}
-
-#mc_embed_signup input.email {
+	box-sizing: border-box !important;
 	font-family: 'Yantramanav', sans-serif !important;
 	font-size: 16px !important;
-	border-radius: 0 !important;
+	color: #e1f5f8 !important;
 }
 
 #mc_embed_signup .button {
 	background-color: #0c2f4a !important;
-	border: 1px solid #f4dd01 !important;
-	color: #e1f5f8 !important;
-	font-size: 16px !important;
 	text-transform: uppercase !important;
-	font-family: 'Yantramanav', sans-serif !important;
-	height: 48px !important;
-	border-radius: 0 !important;
 	font-weight: 600 !important;
+	width: 30% !important;
+	min-width: 30% !important;
 }
 
 #mc_embed_signup .button:hover {
