@@ -243,6 +243,10 @@ footer a,
 	display: block;
 }
 
+footer .right a:not(.inline) {
+	margin-bottom: .3rem;
+}
+
 footer a.inline {
 	display: inline-block;
 }
