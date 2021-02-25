@@ -168,7 +168,7 @@ nav a.primary:focus {
 /* Hero */
 .hero {
 	height: 100vh;
-	background: url(/assets/hero-background.jpg);
+	background: url(/assets/hero-desktop.jpg);
 	background-color: #092F4A; 
 	background-position: center; 
 	background-repeat: no-repeat; 
@@ -374,6 +374,14 @@ footer i {
 		vertical-align: middle;
 	}
 
+	.hero {
+		background: url(/assets/hero-tablet.jpg);
+		background-color: #092F4A; 
+		background-position: center; 
+		background-repeat: no-repeat; 
+		background-size: cover;
+	}
+
 	.hero h2 {
 		width: 100%;
 	}
@@ -395,5 +403,12 @@ footer i {
 
 @media only screen and (max-width: 480px) {
 
+	.hero {
+		background: url(/assets/hero-mobile.jpg);
+		background-color: #092F4A; 
+		background-position: center; 
+		background-repeat: no-repeat; 
+		background-size: cover;
+	}
 
 }
