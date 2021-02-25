@@ -298,8 +298,8 @@ footer i {
 	color: #0c2f4a !important;
 }
 
-/* ------- TERMS ---------- */
-.terms-content {
+/* ------- TERMS / PRIVACY / GUIDELINES ---------- */
+.general-content {
 	padding-top: 5rem;
 	padding-bottom: 3rem;
 }
@@ -408,7 +408,7 @@ footer i {
 		padding-bottom: 5rem;
 	}
 
-	.terms-content {
+	.general-content {
 		padding-top: 3rem;
 	}
 }
