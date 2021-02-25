@@ -89,13 +89,29 @@ a:focus {
 	border: 2px solid #F4DD02;
 	border-radius: 0;
 	transition: all 0.5s ease !important;
+	box-shadow: none;
+	letter-spacing: .2px;
+	font-weight: 600;
 }
 
 .btn-large:hover, 
 .btn-large:active, 
 .btn-large:focus {
-    background: #E1F6F9;
+	background: #E1F6F9;
 	color: #092F4A;
+	box-shadow: none;
+}
+
+.btn-large.inverted {
+	background: #E1F6F9;
+	color: #092F4A;
+}
+
+.btn-large.inverted:hover, 
+.btn-large.inverted:active, 
+.btn-large.inverted:focus {
+	background: #092F4A;
+	color: #E1F6F9;
 }
 
 .row {
@@ -175,22 +191,12 @@ nav a.primary:focus {
 
 /* Why UniHive */
 .why-unihive {
-	background-color: #E4572E;
-	color: #E1F6F9;
+	background-color: #ffffff;
 	padding: 0;
-	/*height: 30em;*/
 }
 
 .why-unihive .left-col {
 	padding: 0;
-}
-
-.why-unihive .right-col {
-	padding: 3rem 3rem 0;
-}
-
-.why-unihive .circle {
-	width: 50%;
 }
 
 /* About */
@@ -317,8 +323,17 @@ footer i {
 		width: 100%;
 	}
 
+	.why-unihive .row {
+		display: block;
+	}
+
+	.why-unihive .right-col {
+		padding-top: 3rem;
+		padding-bottom: 5rem;
+	}
+
 	.footer-logo {
-   		max-width: 278px;
+		max-width: 278px;
 	}
 }
 
@@ -369,7 +384,7 @@ footer i {
 	}
 
 	.benefits .material-icons {
-    	font-size: 50px;
+		font-size: 50px;
 	}
 
 	.about {
