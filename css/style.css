@@ -228,12 +228,15 @@ footer.page-footer,
 	max-width: 298px;
 }
 
-.page-footer .footer-copyright {
-	margin-top: 3rem;
+footer a,
+.copyright {
+	color: #E1F6F9;
+	font-size: 18px;
+	display: block;
 }
 
-footer a {
-	color: #E1F6F9;
+footer a.inline {
+	display: inline-block;
 }
 
 footer .left a {
@@ -244,12 +247,9 @@ footer i {
 	padding-right: .5rem;
 }
 
-footer h5:first-of-type {
-	margin-top: 0;
-}
-
 #mc_embed_signup form {
 	padding: 0 !important;
+	margin-bottom: 35px !important;
 }
 
 #mc_embed_signup input {
@@ -258,10 +258,16 @@ footer h5:first-of-type {
 
 #mc_embed_signup input[type=email]:not(.browser-default) {
 	color: #e1f5f8 !important;
+
+}
+
+#mc_embed_signup input:-internal-autofill-selected {
+	background: #e1f5f8 !important;
+	color: #092F4A !important;
 }
 
 #mc_embed_signup input.email {
-	font-family: 'Asar', serif !important;
+	font-family: 'Yantramanav', sans-serif !important;
 	font-size: 16px !important;
 	border-radius: 0 !important;
 }
