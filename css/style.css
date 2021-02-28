@@ -77,7 +77,10 @@ a:focus {
 .benefits a:focus,
 .about a:hover,
 .about a:active,
-.about a:focus {
+.about a:focus,
+.general-content a:hover,
+.general-content a:active,
+.general-content a:focus {
 	color: #092F4A;
 }
 
@@ -131,6 +134,7 @@ a:focus {
 	margin-bottom: 3rem;
 	font-size: 1.4rem;
 }
+
 
 
 
