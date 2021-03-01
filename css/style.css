@@ -298,10 +298,29 @@ footer i {
 	color: #0c2f4a !important;
 }
 
-/* ------- TERMS / PRIVACY / GUIDELINES ---------- */
+/* ------- TERMS / PRIVACY / GUIDELINES / FAQs ---------- */
 .general-content {
 	padding-top: 5rem;
 	padding-bottom: 3rem;
+}
+
+.collapsible-subsection {
+	margin-bottom: 1.5em;
+}
+
+.collapsible-subsection ul {
+	margin-left: 2em;
+	margin-bottom: 1em;	
+}
+
+.collapsible-subsection ul li {
+	list-style-type: disc;
+}
+
+.collapsible-title {
+	font-weight: 700;
+	display: block;
+	font-style: italic;
 }
 
 
