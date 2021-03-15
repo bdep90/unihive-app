@@ -161,6 +161,10 @@ nav ul a:focus {
 	background-color: #092F4A;
 }
 
+nav li.inactive {
+	pointer-events: none;
+}
+
 nav a.primary {
 	color: #092F4A;
 	background-color: #E1F6F9;
@@ -173,6 +177,10 @@ nav a.primary:focus {
 	background-color: #092F4A;
 }
 
+nav a .fa {
+	display: block;
+}
+
 /* Hero */
 .hero {
 	height: 100vh;
@@ -183,7 +191,8 @@ nav a.primary:focus {
 	background-size: cover;
 }
 
-.hero h1 {
+.hero h1,
+.hero h4 {
 	color: #E1F6F9;
 }
 
@@ -193,6 +202,21 @@ nav a.primary:focus {
 	line-height: 46px;
 	margin-bottom: 3rem;
 	width: 65%;
+}
+
+.hero h4 {
+	margin-bottom: 25px;
+}
+
+.hero #mc_embed_signup {
+	width: 33% !important;
+	min-width: 33% !important;
+}
+
+.hero #mc_embed_signup input,
+.hero #mc_embed_signup .button {
+	width: 100% !important;
+	min-width: 100% !important;
 }
 
 /* Benefits */
@@ -227,6 +251,55 @@ nav a.primary:focus {
 
 .about i {
 	padding-right: .75rem;
+}
+
+/* Coming Soon */
+.coming-soon nav ul li,
+.coming-soon nav ul a {
+	text-transform: none;
+	font-size: 19px;
+}
+
+.coming-soon nav ul li {
+	padding-left: 15px;
+}
+
+.coming-soon nav ul a {
+	padding: 0;
+}
+
+.coming-soon .sidenav {
+	background-color: #092F4A;
+	padding: 20px 0 0 10px;
+}
+
+.coming-soon .sidenav li {
+	line-height: 1.2;
+}
+
+.coming-soon nav ul a,
+.coming-soon .sidenav li > a {
+	padding-left: 0;
+}
+
+.coming-soon .sidenav li > a,
+.coming-soon .sidenav li > a > i {
+	color: #E1F6F9;
+	font-size: 22px;
+	height: auto;
+}
+
+.coming-soon .sidenav li > a > i {
+	margin: 0 22px 0 0;
+}
+
+.coming-soon .sidenav li > a:hover,
+.coming-soon .sidenav li > a:active,
+.coming-soon .sidenav li > a:focus,
+.coming-soon .sidenav li > a:hover i,
+.coming-soon .sidenav li > a:active i,
+.coming-soon .sidenav li > a:focus i {
+	color: #F4DD02;
 }
 
 /* Footer */
@@ -275,12 +348,8 @@ footer i {
 
 #mc_embed_signup input,
 #mc_embed_signup .button {
-	display: inline-block !important;
-	margin: 0 !important;
 	height: 48px !important;
 	min-height: 48px !important;
-	width: 55% !important;
-	min-width: 55% !important;
 	line-height: 1 !important;
 	border-radius: 0 !important;
 	border: 1px solid #f4dd01 !important;
@@ -288,6 +357,13 @@ footer i {
 	font-family: 'Yantramanav', sans-serif !important;
 	font-size: 16px !important;
 	color: #e1f5f8 !important;
+}
+
+footer #mc_embed_signup input,
+footer #mc_embed_signup .button {
+	display: inline-block !important;
+	width: 55% !important;
+	min-width: 55% !important;
 }
 
 #mc_embed_signup .button {
@@ -420,6 +496,11 @@ footer i {
 
 	.hero h2 {
 		width: 100%;
+	}
+
+	.hero #mc_embed_signup {
+		width: 100% !important;
+		min-width: 100% !important;
 	}
 
 	.benefits {
