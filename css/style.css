@@ -413,6 +413,46 @@ footer #mc_embed_signup .button {
 	margin-bottom: 1rem;
 }
 
+/* ------- FAQs ---------- */
+.faqs-hero {
+	background-color: #092F4A;	
+}
+
+.faqs-hero.section {
+	padding-top: 2rem;
+	padding-bottom: 5rem;
+}
+
+.faqs-hero h1,
+.faqs-hero div,
+.faqs-hero a,
+.faqs-hero i,
+.faqs-hero input,
+.faqs-hero ::placeholder {
+	color: #e1f5f8;
+}
+
+.faqs-hero input#search {
+	border-bottom: 1px solid #e1f5f8;
+	font-size: 17px;
+}
+
+.faqs-hero input#search:active,
+.faqs-hero input#search:focus {
+	border-bottom: 1px solid #F4DD02;
+}
+
+.faqs-hero a:hover,
+.faqs-hero a:active,
+.faqs-hero a:focus,
+.faqs-hero .input-field .prefix.active {
+	color: #F4DD02;
+}
+
+.faqs-hero a {
+	text-decoration: underline;
+}
+
 
 
 /******  RESPONSIVE STYLES  ******/
@@ -467,7 +507,7 @@ footer #mc_embed_signup .button {
 
 	h1, .h1 { 
 		font-size: 33px;
-		line-height: 50px;
+		line-height: 43px;
 		margin-top: 25px;
 		margin-bottom: 25px;
 	}
@@ -528,6 +568,11 @@ footer #mc_embed_signup .button {
 
 	.general-content {
 		padding-top: 3rem;
+	}
+
+	.faqs-hero.section {
+		padding-top: 2rem;
+		padding-bottom: 4rem;
 	}
 }
 
