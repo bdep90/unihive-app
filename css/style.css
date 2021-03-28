@@ -390,6 +390,11 @@ footer #mc_embed_signup .button {
 	margin-bottom: 1em;	
 }
 
+.general-content ul.collapsible {
+	margin-left: 1em;
+	margin-bottom: 2em;
+}
+
 .general-content ul li {
 	list-style-type: disc;
 }
