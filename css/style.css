@@ -488,6 +488,10 @@ footer #mc_embed_signup .button {
 		height: auto;
 		padding-bottom: 3em; 
 	}
+
+	.coming-soon .hero { 
+		height: 100vh;
+	}
 }
 
 /* medium screens */
