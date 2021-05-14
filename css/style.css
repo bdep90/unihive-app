@@ -608,4 +608,8 @@ footer #mc_embed_signup .button {
 		background-size: cover;
 	}
 
+	.coming-soon .hero {
+		background-position: 75%;
+	}
+
 }
