@@ -37,7 +37,8 @@ h2, .h2 {
 h3, .h3 {
 	font-size: 29px;
 	line-height: 50px;
-	margin-top: 25px;
+	margin-top: 16px;
+	/*margin-top: 25px;*/
 	margin-bottom: 0px;
 }
 
@@ -121,11 +122,12 @@ a:focus {
 }
 
 .icon-block {
-	margin-top: 1rem;
+	margin-top: 2rem;
 }
 
 .material-icons {
 	font-size: 42px;
+	color: #E4572E;
 }
 
 .tagline {
