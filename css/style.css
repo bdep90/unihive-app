@@ -246,7 +246,7 @@ nav a .fa {
 
 /* Benefits */
 .benefits {
-	padding-top: 9rem;
+	padding-top: 5rem;
 	padding-bottom: 5rem;
 }
 
@@ -262,8 +262,8 @@ nav a .fa {
 
 /* About */
 .about {
-	padding-top: 9rem;
-	padding-bottom: 9rem;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
 }
 
 .about .row {
@@ -511,6 +511,13 @@ footer #mc_embed_signup .button {
 	.why-unihive .right {
 		padding-top: 3rem;
 		padding-bottom: 5rem;
+
+	}
+
+	.benefits,
+	.about {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
 	}
 
 	.footer-logo {
@@ -574,8 +581,8 @@ footer #mc_embed_signup .button {
 	}
 
 	.benefits {
-		padding-top: 5rem;
-		padding-bottom: 0;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
 	}
 
 	.benefits h2 {
@@ -584,11 +591,6 @@ footer #mc_embed_signup .button {
 
 	.benefits .material-icons {
 		font-size: 50px;
-	}
-
-	.about {
-		padding-top: 5rem;
-		padding-bottom: 5rem;
 	}
 
 	.general-content {
@@ -613,6 +615,11 @@ footer #mc_embed_signup .button {
 
 	.coming-soon .hero {
 		background-position: 75%;
+	}
+
+	.why-unihive .right {
+		padding-top: 2rem;
+		padding-bottom: 5rem;
 	}
 
 }
