@@ -209,7 +209,7 @@ nav a .fa {
 /* Hero */
 .hero {
 	height: 100vh;
-	background: url(/assets/hero-desktop.jpg);
+	background: url(/assets/hero-desktop-2021.png);
 	background-color: #092F4A; 
 	background-position: center; 
 	background-repeat: no-repeat; 
@@ -556,7 +556,7 @@ footer #mc_embed_signup .button {
 	}
 
 	.hero {
-		background: url(/assets/hero-tablet.jpg);
+		background: url(/assets/hero-tablet-2021.png);
 		background-color: #092F4A; 
 		background-position: center; 
 		background-repeat: no-repeat; 
@@ -604,7 +604,7 @@ footer #mc_embed_signup .button {
 @media only screen and (max-width: 480px) {
 
 	.hero {
-		background: url(/assets/hero-mobile.jpg);
+		background: url(/assets/hero-mobile-2021.png);
 		background-color: #092F4A; 
 		background-position: center; 
 		background-repeat: no-repeat; 
