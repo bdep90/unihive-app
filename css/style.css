@@ -6,6 +6,11 @@
  * Made By MaterializeCSS.com
  */
 
+ /* demo work */
+.blue { background-color: #092F4A !important; margin-bottom: -1rem; padding-bottom: 2rem; }
+.white-text { color: #E1F6F9 !important; }
+
+
 body {
 	font-family: 'Yantramanav', sans-serif;
 	font-size: 19px;
