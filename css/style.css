@@ -609,6 +609,14 @@ footer #mc_embed_signup .button {
 		font-size: 50px;
 	}
 
+	img.signature {
+		width: 30%;
+	}
+
+	.about img.photo {
+		max-width: 100% !important;
+	}
+
 	.general-content {
 		padding-top: 3rem;
 	}
