@@ -257,6 +257,11 @@ nav a .fa {
 	padding-bottom: 5rem;
 }
 
+.benefits span {
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
 /* Why UniHive */
 .why-unihive {
 	background-color: #ffffff;
@@ -281,8 +286,8 @@ nav a .fa {
 	margin-bottom: 1rem;
 }
 
-.about i {
-	padding-right: .75rem;
+.about img.photo {
+	max-width: 450px;
 }
 
 /* Coming Soon */
@@ -352,16 +357,20 @@ footer a,
 	display: block;
 }
 
-footer .right a:not(.inline) {
+footer .right a:not(.inline.icon) {
 	margin-bottom: .3rem;
 }
 
-footer a.inline {
+footer a.inline.icon {
 	display: inline-block;
 }
 
 footer .left a {
 	display: block;
+}
+
+footer .MC-btn-container {
+	padding: 1.5rem 0;
 }
 
 footer i {
