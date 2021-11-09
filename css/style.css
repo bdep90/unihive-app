@@ -85,10 +85,10 @@ a:focus {
 	color: #092F4A;
 }
 
-.btn-large {
+.btn-large,
+.btn-small {
 	background: #092F4A;
 	color: #E1F6F9;
-	font-size: 18px;
 	border: 2px solid #F4DD02;
 	border-radius: 0;
 	transition: all 0.5s ease !important;
@@ -97,22 +97,39 @@ a:focus {
 	font-weight: 600;
 }
 
+.btn-large {
+	font-size: 18px;
+}
+
+.btn-small {
+	font-size: 16px;
+}
+
 .btn-large:hover, 
 .btn-large:active, 
-.btn-large:focus {
+.btn-large:focus,
+.btn-small:hover, 
+.btn-small:active, 
+.btn-small:focus {
 	background: #E1F6F9;
 	color: #092F4A;
 	box-shadow: none;
 }
 
-.btn-large.inverted {
+.btn-large.inverted,
+.btn-large.inverted,
+.btn-small.inverted,
+.btn-small.inverted {
 	background: #E1F6F9;
 	color: #092F4A;
 }
 
 .btn-large.inverted:hover, 
 .btn-large.inverted:active, 
-.btn-large.inverted:focus {
+.btn-large.inverted:focus,
+.btn-small.inverted:hover, 
+.btn-small.inverted:active, 
+.btn-small.inverted:focus {
 	background: #092F4A;
 	color: #E1F6F9;
 }
