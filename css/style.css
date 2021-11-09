@@ -295,10 +295,6 @@ nav a .fa {
 	padding-bottom: 5rem;
 }
 
-.about .row {
-	width: 70%;
-}
-
 .about img {
 	margin-bottom: 1rem;
 }
@@ -352,6 +348,14 @@ nav a .fa {
 }
 
 /* Donate CTA */
+.donate {
+	padding: 3rem;
+}
+
+.donate h3 {
+	color: #F4DD02;
+}
+
 .donate hr {
 	margin-top: 3rem;
 }
@@ -537,10 +541,6 @@ footer #mc_embed_signup .button {
 
 /* medium screens */
 @media only screen and (max-width: 992px) {
-	
-	.about .row {
-		width: 100%;
-	}
 
 	.why-unihive .row {
 		display: block;
