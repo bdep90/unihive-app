@@ -334,6 +334,11 @@ nav a .fa {
 	color: #F4DD02;
 }
 
+/* Donate CTA */
+.donate hr {
+	margin-top: 3rem;
+}
+
 /* Footer */
 footer.page-footer {
 	background-color: #092F4A;
