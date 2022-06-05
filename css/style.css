@@ -356,6 +356,10 @@ nav a .fa {
 	color: #F4DD02;
 }
 
+.donate img.qr-code {
+	max-width: 225px;
+}
+
 .donate hr {
 	margin-top: 3rem;
 }
