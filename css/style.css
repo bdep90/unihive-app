@@ -150,8 +150,8 @@ a:focus {
 .tagline {
 	font-family: 'Asar', serif;
 	color: #F4DD02;
-	margin-bottom: 3rem;
-	font-size: 1.4rem;
+	margin-bottom: 2rem;
+	font-size: 1.2rem;
 }
 
 .title {
@@ -374,13 +374,12 @@ footer.page-footer,
 }
 
 .footer-logo {
-	max-width: 298px;
+	max-width: 250px;
 }
 
 footer a,
 .copyright {
 	color: #E1F6F9;
-	display: block;
 }
 
 footer .right a:not(.inline.icon) {
@@ -439,6 +438,11 @@ footer #mc_embed_signup .button {
 #mc_embed_signup .button:hover {
 	background-color: #e1f5f8 !important;
 	color: #0c2f4a !important;
+}
+
+.footer-links {
+	display: inline-block;
+	margin-bottom: 2rem;	
 }
 
 /* ------- TERMS / PRIVACY / GUIDELINES / FAQs ---------- */
