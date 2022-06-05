@@ -655,6 +655,14 @@ footer #mc_embed_signup .button {
 		padding-top: 2rem;
 		padding-bottom: 4rem;
 	}
+
+	.donate .valign-wrapper {
+		display: block;
+	}
+
+	.donate img.qr-code {
+		max-width: 100%;
+	}
 }
 
 @media only screen and (max-width: 480px) {
