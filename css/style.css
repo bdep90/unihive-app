@@ -297,6 +297,16 @@ nav a .fa {
 	min-width: 100% !important;
 }
 
+/* Events */
+.events {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+.events p {
+	font-weight: bolder;
+}
+
 /* Benefits */
 .benefits {
 	padding-top: 5rem;
@@ -545,6 +555,7 @@ footer #mc_embed_signup .button {
 
 	}
 
+	.events,
 	.benefits,
 	.about {
 		padding-top: 2rem;
