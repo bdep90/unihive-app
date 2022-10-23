@@ -10,7 +10,6 @@
 .blue { background-color: #092F4A !important; margin-bottom: -1rem; padding-bottom: 2rem; }
 .white-text { color: #E1F6F9 !important; }
 
-
 body {
 	font-family: 'Yantramanav', sans-serif;
 	font-size: 19px;
@@ -175,8 +174,16 @@ nav .brand-logo, nav .brand-logo img {
 	max-height: 28px;
 }
 
+nav ul li {
+	padding-left: 15px;
+}
+
+nav li.inactive {
+	pointer-events: none;
+}
+
 nav ul a {
-	padding: 0 25px;
+	padding: 0;
 	font-size: 17px;
 	color: #E1F6F9;
 	text-transform: uppercase;
@@ -186,10 +193,6 @@ nav ul a:hover,
 nav ul a:active,
 nav ul a:focus {
 	background-color: #092F4A;
-}
-
-nav li.inactive {
-	pointer-events: none;
 }
 
 nav a.primary {
@@ -213,21 +216,25 @@ nav a .fa {
 	padding: 20px 0 0 10px !important;
 }
 
-.sidenav li a {
+.sidenav li a,
+.sidenav li > a.btn-small {
 	font-size: 19px;
 	color: #E1F6F9;
-	text-transform: capitalize;
-}
-
-.sidenav a.primary {
-	background-color: #092F4A;
+	text-align: center;
 }
 
 .sidenav a:hover,
 .sidenav a:active,
 .sidenav a:focus {
-	color: #F4DD02 !important;
+	color: #F4DD02;
 	background-color: #092F4A;
+}
+
+.sidenav li > a.btn-small:hover,
+.sidenav li > a.btn-small:active,
+.sidenav li > a.btn-small:focus {
+	background: #E1F6F9;
+	color: #092F4A;	
 }
 
 /* Hero */
@@ -301,50 +308,6 @@ nav a .fa {
 
 .about img.photo {
 	max-width: 450px;
-}
-
-/* Coming Soon */
-.coming-soon nav ul li,
-.coming-soon nav ul a {
-	text-transform: none;
-	font-size: 19px;
-}
-
-.coming-soon nav ul li {
-	padding-left: 15px;
-}
-
-.coming-soon nav ul a {
-	padding: 0;
-}
-
-.coming-soon .sidenav li {
-	line-height: 1.2;
-}
-
-.coming-soon nav ul a,
-.coming-soon .sidenav li > a {
-	padding-left: 0;
-}
-
-.coming-soon .sidenav li > a,
-.coming-soon .sidenav li > a > i {
-	color: #E1F6F9;
-	font-size: 22px;
-	height: auto;
-}
-
-.coming-soon .sidenav li > a > i {
-	margin: 0 22px 0 0;
-}
-
-.coming-soon .sidenav li > a:hover,
-.coming-soon .sidenav li > a:active,
-.coming-soon .sidenav li > a:focus,
-.coming-soon .sidenav li > a:hover i,
-.coming-soon .sidenav li > a:active i,
-.coming-soon .sidenav li > a:focus i {
-	color: #F4DD02;
 }
 
 /* Donate CTA */
@@ -542,7 +505,7 @@ footer #mc_embed_signup .button {
 		padding-bottom: 3em; 
 	}
 
-	.coming-soon .hero { 
+	.hero { 
 		height: 100vh;
 	}
 }
@@ -679,7 +642,7 @@ footer #mc_embed_signup .button {
 		background-size: cover;
 	}
 
-	.coming-soon .hero {
+	.hero {
 		background-position: 75%;
 	}
 
