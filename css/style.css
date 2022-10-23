@@ -175,7 +175,7 @@ nav .brand-logo, nav .brand-logo img {
 }
 
 nav ul li {
-	padding-left: 15px;
+	padding: 0 10px;
 }
 
 nav li.inactive {
@@ -184,7 +184,7 @@ nav li.inactive {
 
 nav ul a {
 	padding: 0;
-	font-size: 17px;
+	font-size: 18px;
 	color: #E1F6F9;
 	text-transform: uppercase;
 }
@@ -195,10 +195,10 @@ nav ul a:focus {
 	background-color: #092F4A;
 }
 
-nav a.primary {
+/*nav a.primary {
 	color: #092F4A;
 	background-color: #E1F6F9;
-}
+}*/
 
 nav a.primary:hover,
 nav a.primary:active,
@@ -214,6 +214,7 @@ nav a .fa {
 .sidenav {
 	background-color: #092F4A;
 	padding: 20px 0 0 10px !important;
+	text-align: center;
 }
 
 .sidenav li a,
@@ -235,6 +236,27 @@ nav a .fa {
 .sidenav li > a.btn-small:focus {
 	background: #E1F6F9;
 	color: #092F4A;	
+}
+
+.sidenav li.social-links {
+	display: inline-block;
+}
+
+.sidenav li.social-links > a,
+.sidenav li.social-links > a > i {
+	color: #E1F6F9;
+	font-size: 22px;
+	margin: 0;
+	padding: 0;
+}
+
+.sidenav li.social-links > a:hover,
+.sidenav li.social-links > a:active,
+.sidenav li.social-links > a:focus,
+.sidenav li.social-links > a:hover i,
+.sidenav li.social-links > a:active i,
+.sidenav li.social-links > a:focus i {
+	color: #F4DD02;
 }
 
 /* Hero */
