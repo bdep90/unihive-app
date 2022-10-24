@@ -64,6 +64,7 @@ p {
 a {
 	color: #156AA5;
 	transition: all 0.5s ease !important;
+	text-decoration: underline;
 }
 
 a:hover,
@@ -170,9 +171,12 @@ nav {
 	background-color: #092F4A;
 }	
 
-nav .brand-logo, nav .brand-logo img {
+nav .brand-logo, 
+nav .brand-logo img {
 	max-height: 28px;
+	vertical-align: middle;
 }
+
 
 nav ul li {
 	padding: 0 10px;
@@ -182,6 +186,10 @@ nav li.inactive {
 	pointer-events: none;
 }
 
+nav a {
+	text-decoration: none;	
+}
+
 nav ul a {
 	padding: 0;
 	font-size: 18px;
@@ -189,26 +197,14 @@ nav ul a {
 	text-transform: uppercase;
 }
 
+nav a .fa {
+	display: block;
+}
+
 nav ul a:hover,
 nav ul a:active,
 nav ul a:focus {
 	background-color: #092F4A;
-}
-
-/*nav a.primary {
-	color: #092F4A;
-	background-color: #E1F6F9;
-}*/
-
-nav a.primary:hover,
-nav a.primary:active,
-nav a.primary:focus {
-	color: #E1F6F9;
-	background-color: #092F4A;
-}
-
-nav a .fa {
-	display: block;
 }
 
 .sidenav {
@@ -303,10 +299,6 @@ nav a .fa {
 	padding-bottom: 5rem;
 }
 
-.events p {
-	font-weight: bolder;
-}
-
 /* Benefits */
 .benefits {
 	padding-top: 5rem;
@@ -314,8 +306,8 @@ nav a .fa {
 }
 
 .benefits span {
+	font-style: italic;
 	font-weight: bolder;
-	text-decoration: underline;
 }
 
 /* Why UniHive */
@@ -514,10 +506,6 @@ footer #mc_embed_signup .button {
 	color: #F4DD02;
 }
 
-.faqs-hero a {
-	text-decoration: underline;
-}
-
 
 
 /******  RESPONSIVE STYLES  ******/
@@ -598,10 +586,6 @@ footer #mc_embed_signup .button {
 		line-height: 25px;
 		margin-top: 25px;
 		margin-bottom: 0px;
-	}
-	
-	nav .brand-logo, nav .brand-logo img {
-		vertical-align: middle;
 	}
 
 	.hero {
