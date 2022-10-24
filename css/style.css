@@ -94,6 +94,7 @@ a:focus {
 	box-shadow: none;
 	letter-spacing: .2px;
 	font-weight: 600;
+	min-height: 54px;
 }
 
 .btn-large {
