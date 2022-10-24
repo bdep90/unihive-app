@@ -95,11 +95,11 @@ a:focus {
 	box-shadow: none;
 	letter-spacing: .2px;
 	font-weight: 600;
-	min-height: 54px;
 }
 
 .btn-large {
 	font-size: 18px;
+	padding: 16px 28px;
 }
 
 .btn-small {
