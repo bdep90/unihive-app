@@ -163,7 +163,7 @@ a:focus {
 }
 
 img.signature {
-	width: 20%;
+	width: 40%;
 }
 
 
@@ -261,7 +261,7 @@ nav ul a:focus {
 /* Hero */
 .hero {
 	height: 100vh;
-	background: url(/assets/hero-desktop-2021.png);
+	background: url(/assets/hero-desktop-2023.png);
 	background-color: #092F4A; 
 	background-position: center; 
 	background-repeat: no-repeat; 
@@ -592,7 +592,7 @@ footer #mc_embed_signup .button {
 	}
 
 	.hero {
-		background: url(/assets/hero-tablet-2021.png);
+		background: url(/assets/hero-tablet-2023.png);
 		background-color: #092F4A; 
 		background-position: center; 
 		background-repeat: no-repeat; 
@@ -655,7 +655,7 @@ footer #mc_embed_signup .button {
 	}
 
 	.hero {
-		background: url(/assets/hero-mobile-2021.png);
+		background: url(/assets/hero-mobile-2023.png);
 		background-color: #092F4A; 
 		background-position: center; 
 		background-repeat: no-repeat; 
