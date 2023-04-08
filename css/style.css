@@ -163,7 +163,7 @@ a:focus {
 }
 
 img.signature {
-	width: 40%;
+	width: 30%;
 }
 
 
@@ -338,9 +338,6 @@ nav ul a:focus {
 }
 
 /* Donate CTA */
-.donate {
-	padding: 3rem;
-}
 
 .donate h3 {
 	color: #F4DD02;
@@ -351,13 +348,13 @@ nav ul a:focus {
 }
 
 .donate hr {
-	margin-top: 3rem;
+	margin: 1.5rem 0;
 }
 
 /* Footer */
 footer.page-footer {
 	background-color: #092F4A;
-	padding-top: 3rem;
+	padding-top: 0;
 	padding-bottom: 1rem;
 }
 
@@ -376,12 +373,17 @@ footer a,
 	color: #E1F6F9;
 }
 
+footer .copyright {
+	display: inline;
+}
+
 footer .right a:not(.inline.icon) {
 	margin-bottom: .3rem;
 }
 
 footer a.inline.icon {
 	display: inline-block;
+	padding-top: 1rem;
 }
 
 footer .left a {
@@ -434,9 +436,8 @@ footer #mc_embed_signup .button {
 	color: #0c2f4a !important;
 }
 
-.footer-links {
-	display: inline-block;
-	margin-bottom: 2rem;	
+.footer-links a {
+	display: block;
 }
 
 /* ------- TERMS / PRIVACY / GUIDELINES / FAQs ---------- */
@@ -671,4 +672,11 @@ footer #mc_embed_signup .button {
 		padding-bottom: 5rem;
 	}
 
+	footer.page-footer {
+		padding-top: 0;
+	}
+
+	footer .copyright {
+		display: block;
+	}
 }
