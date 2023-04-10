@@ -6,10 +6,6 @@
  * Made By MaterializeCSS.com
  */
 
- /* demo work */
-.blue { background-color: #092F4A !important; margin-bottom: -1rem; padding-bottom: 2rem; }
-.white-text { color: #E1F6F9 !important; }
-
 body {
 	font-family: 'Yantramanav', sans-serif;
 	font-size: 19px;
@@ -300,6 +296,7 @@ nav ul a:focus {
 .events {
 	padding-top: 5rem;
 	padding-bottom: 5rem;
+	background: #f4dd02;
 }
 
 /* Benefits */
@@ -337,7 +334,16 @@ nav ul a:focus {
 	max-width: 450px;
 }
 
+/* Resources CTA */
+.resources-cta {
+	background-color: #FFFFFF !important; 
+	padding: 2rem 0 3rem;
+}
+
 /* Donate CTA */
+.donate {
+	background-color: #092F4A !important; 
+}
 
 .donate h3 {
 	color: #F4DD02;
@@ -441,9 +447,18 @@ footer #mc_embed_signup .button {
 }
 
 /* ------- TERMS / PRIVACY / GUIDELINES / FAQs ---------- */
+.general-hero { 
+	background: url(/assets/bg-dark.png);
+	background-color: #092F4A !important; 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+	margin-bottom: -1rem; padding-bottom: 2rem;
+	color: #E1F6F9 !important; 
+}
+
 .general-content {
-	padding-top: 5rem;
-	padding-bottom: 3rem;
+	padding: 4rem 0 3rem;
 }
 
 .general-content ul {
@@ -472,42 +487,6 @@ footer #mc_embed_signup .button {
 
 .guidelines li {
 	margin-bottom: 1rem;
-}
-
-/* ------- FAQs ---------- */
-.faqs-hero {
-	background-color: #092F4A;	
-}
-
-.faqs-hero.section {
-	padding-top: 2rem;
-	padding-bottom: 5rem;
-}
-
-.faqs-hero h1,
-.faqs-hero div,
-.faqs-hero a,
-.faqs-hero i,
-.faqs-hero input,
-.faqs-hero ::placeholder {
-	color: #e1f5f8;
-}
-
-.faqs-hero input#search {
-	border-bottom: 1px solid #e1f5f8;
-	font-size: 17px;
-}
-
-.faqs-hero input#search:active,
-.faqs-hero input#search:focus {
-	border-bottom: 1px solid #F4DD02;
-}
-
-.faqs-hero a:hover,
-.faqs-hero a:active,
-.faqs-hero a:focus,
-.faqs-hero .input-field .prefix.active {
-	color: #F4DD02;
 }
 
 
@@ -635,7 +614,7 @@ footer #mc_embed_signup .button {
 		padding-top: 3rem;
 	}
 
-	.faqs-hero.section {
+	.general-hero.section {
 		padding-top: 2rem;
 		padding-bottom: 4rem;
 	}
