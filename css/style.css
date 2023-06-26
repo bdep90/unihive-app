@@ -379,10 +379,6 @@ footer a,
 	color: #E1F6F9;
 }
 
-footer .copyright {
-	display: inline;
-}
-
 footer .right a:not(.inline.icon) {
 	margin-bottom: .3rem;
 }
