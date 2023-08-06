@@ -291,6 +291,15 @@ nav ul a:focus {
 	min-width: 100% !important;
 }
 
+/* Resources */
+.resources {
+	background: url(/assets/bg-light2.png);
+    background-color: #092F4A;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* Events */
 .events {
 	padding-top: 5rem;
@@ -299,7 +308,7 @@ nav ul a:focus {
 }
 
 /* Benefits */
-.benefits {
+.benefits, .resources {
 	padding-top: 5rem;
 	padding-bottom: 5rem;
 }
@@ -332,9 +341,6 @@ nav ul a:focus {
 .about img.photo {
 	max-width: 450px;
 }
-
-/* About */
-
 
 /* Resources CTA */
 .resources-cta {
@@ -524,6 +530,7 @@ footer #mc_embed_signup .button {
 
 	}
 
+	.resources,
 	.events,
 	.benefits,
 	.about {
