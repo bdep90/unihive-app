@@ -368,8 +368,7 @@ nav ul a:focus {
 /* Footer */
 footer.page-footer {
 	background-color: #092F4A;
-	padding-top: 0;
-	padding-bottom: 1rem;
+	padding: 1.5rem 0 1rem;
 }
 
 footer,
@@ -654,10 +653,6 @@ footer #mc_embed_signup .button {
 	.why-unihive .right {
 		padding-top: 2rem;
 		padding-bottom: 5rem;
-	}
-
-	footer.page-footer {
-		padding-top: 0;
 	}
 
 	footer .copyright {
